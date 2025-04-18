@@ -26,7 +26,7 @@ export default function HomePage() {
           </button>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {users.map((user) => (
+          {users.map((user, index) => (
             <Link href={`/users/${user.slug}`} key={user.id}>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -42,6 +42,8 @@ export default function HomePage() {
                         src={user.profileImage}
                         alt={user.name}
                         fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        priority={index < 3}
                         className="rounded-full object-cover"
                       />
                     </div>

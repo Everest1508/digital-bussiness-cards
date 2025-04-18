@@ -4,15 +4,17 @@ import React from 'react';
 import { User } from '../../../types';
 import userData from '../../../data/data.json';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Linkedin, Twitter, Github, Instagram } from 'lucide-react';
+import { ArrowLeft, Linkedin, Twitter, Github, Instagram, Sun, Moon } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useTheme } from '../../providers';
 
 export default function UserPage({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = React.use(params);
   const { slug } = resolvedParams;
   const users = userData as User[];
   const user = users.find(u => u.slug === slug);
+  const { theme, toggleTheme } = useTheme();
 
   if (!user) {
     return (
@@ -33,13 +35,21 @@ export default function UserPage({ params }: { params: Promise<{ slug: string }>
       className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4 sm:px-6 lg:px-8"
     >
       <div className="max-w-3xl mx-auto">
-        <Link 
-          href="/"
-          className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white mb-6"
-        >
-          <ArrowLeft className="w-5 h-5 mr-2" />
-          Back to Home
-        </Link>
+        <div className="flex justify-between items-center mb-6">
+          <Link 
+            href="/"
+            className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
+          >
+            <ArrowLeft className="w-5 h-5 mr-2" />
+            Back to Home
+          </Link>
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+          >
+            {theme === 'light' ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
+          </button>
+        </div>
 
         <motion.div 
           whileHover={{ scale: 1.02 }}
@@ -51,6 +61,8 @@ export default function UserPage({ params }: { params: Promise<{ slug: string }>
               src={user.coverImage}
               alt={`${user.name}'s cover`}
               fill
+              sizes="100vw"
+              priority
               className="object-cover"
             />
           </div>
@@ -63,6 +75,8 @@ export default function UserPage({ params }: { params: Promise<{ slug: string }>
                     src={user.profileImage}
                     alt={user.name}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    priority
                     className="rounded-full border-4 border-white dark:border-gray-800 object-cover"
                   />
                 </div>
@@ -138,6 +152,7 @@ export default function UserPage({ params }: { params: Promise<{ slug: string }>
                       src={user.companyInfo.logo}
                       alt={user.companyInfo.name}
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover"
                     />
                   </div>
