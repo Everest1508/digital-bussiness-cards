@@ -6,9 +6,11 @@ import userData from '../../../data/data.json';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Linkedin, Twitter, Github, Instagram } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
-export default function UserPage({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+export default function UserPage({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = React.use(params);
+  const { slug } = resolvedParams;
   const users = userData as User[];
   const user = users.find(u => u.slug === slug);
 
@@ -44,11 +46,12 @@ export default function UserPage({ params }: { params: { slug: string } }) {
           className="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden"
         >
           {/* Cover Image */}
-          <div className="h-48 w-full overflow-hidden">
-            <img
+          <div className="relative h-48 w-full overflow-hidden">
+            <Image
               src={user.coverImage}
               alt={`${user.name}'s cover`}
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
 
@@ -56,10 +59,11 @@ export default function UserPage({ params }: { params: { slug: string } }) {
             <div className="flex items-center space-x-4">
               <div className="flex-shrink-0 -mt-16">
                 <div className="relative h-24 w-24">
-                  <img
-                    className="absolute h-full w-full rounded-full border-4 border-white dark:border-gray-800 object-cover"
+                  <Image
                     src={user.profileImage}
                     alt={user.name}
+                    fill
+                    className="rounded-full border-4 border-white dark:border-gray-800 object-cover"
                   />
                 </div>
               </div>
@@ -88,7 +92,7 @@ export default function UserPage({ params }: { params: { slug: string } }) {
               <p className="text-gray-600 dark:text-gray-400">{user.bio}</p>
               {user.personalQuote && (
                 <blockquote className="mt-4 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
-                  <p className="text-gray-600 dark:text-gray-300 italic">"{user.personalQuote}"</p>
+                  <p className="text-gray-600 dark:text-gray-300 italic">&ldquo;{user.personalQuote}&rdquo;</p>
                 </blockquote>
               )}
             </div>
@@ -129,7 +133,14 @@ export default function UserPage({ params }: { params: { slug: string } }) {
               <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Company Info</h2>
               <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
                 <div className="flex items-center space-x-4">
-                  <img src={user.companyInfo.logo} alt={user.companyInfo.name} className="h-12 w-12" />
+                  <div className="relative h-12 w-12">
+                    <Image
+                      src={user.companyInfo.logo}
+                      alt={user.companyInfo.name}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 dark:text-white">{user.companyInfo.name}</h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Founded: {user.companyInfo.founded}</p>
