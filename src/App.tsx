@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
-import CardDetailPage from './pages/CardDetailPage';
+import DynamicPage from './pages/[slug]';
 import ThemeToggle from './components/ThemeToggle';
 import { User } from './types';
 import userData from './data/data.json';
@@ -36,7 +36,7 @@ function App() {
       <ThemeToggle />
       <Routes>
         <Route path="/" element={<HomePage users={users} />} />
-        <Route path="/:slug" element={<CardDetailPage users={users} />} />
+        <Route path="/:slug" element={<DynamicPage />} />
       </Routes>
     </Router>
   );
