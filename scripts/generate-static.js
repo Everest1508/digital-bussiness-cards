@@ -36,7 +36,7 @@ data.forEach(user => {
       </head>
       <body>
         <div id="root"></div>
-        <script type="module" src="/src/main.tsx"></script>
+        <script type="module" src="/assets/index.js"></script>
       </body>
     </html>
   `;
