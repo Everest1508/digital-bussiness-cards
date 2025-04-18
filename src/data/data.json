@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Rajesh Kumar",
+    "slug": "bsl-energy",
+    "title": "Managing Director",
+    "company": "BSL Energy India",
+    "email": "rajesh.kumar@bslenenergy.in",
+    "phone": "+91 123 456 7890",
+    "website": "https://bslenenergy.in",
+    "address": "123 Energy Park, Industrial Area, Mumbai, India",
+    "profileImage": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "coverImage": "https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "social": {
+      "linkedin": "https://linkedin.com/company/bsl-energy",
+      "twitter": "https://twitter.com/bslenergy",
+      "instagram": "https://instagram.com/bslenergy"
+    },
+    "bio": "Pioneering sustainable energy solutions with over 15 years of experience in renewable energy sector. Leading BSL Energy's mission to transform India's energy landscape.",
+    "highlights": [
+      "ISO 9001:2015 Certified",
+      "20+ Years Experience",
+      "Pan India Presence",
+      "24/7 Support"
+    ],
+    "companyInfo": {
+      "name": "BSL Energy India",
+      "logo": "https://images.pexels.com/photos/8834227/pexels-photo-8834227.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "founded": "2003",
+      "employees": "500+",
+      "services": [
+        "Solar Power Solutions",
+        "Wind Energy Systems",
+        "Hybrid Power Plants",
+        "Energy Storage Solutions",
+        "Smart Grid Integration"
+      ]
+    },
+    "personalQuote": "Committed to powering a sustainable future for generations to come",
+    "expertise": [
+      "Renewable Energy",
+      "Project Management",
+      "Strategic Planning",
+      "International Business",
+      "Team Leadership"
+    ]
+  }
+,
+  {
+    "id": 2,
+    "name": "Anjali Verma",
+    "slug": "green-tech",
+    "title": "Chief Technology Officer",
+    "company": "Green Tech Innovations",
+    "email": "rajesh.kumar@bslenenergy.in",
+    "phone": "+91 123 456 7890",
+    "website": "https://greentechinnovations.in",
+    "address": "456 Tech Park, Silicon Valley, Bangalore, India",
+    "profileImage": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "coverImage": "https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "social": {
+      "linkedin": "https://linkedin.com/company/green-tech-innovations",
+      "twitter": "https://twitter.com/greentechinnovations",
+      "instagram": "https://instagram.com/greentechinnovations"
+    },
+    "bio": "Driving innovation in green technology with a focus on AI and IoT solutions for energy efficiency. Passionate about creating a sustainable future through technology.",
+    "highlights": [
+      "ISO 9001:2015 Certified",
+      "20+ Years Experience",
+      "Pan India Presence",
+      "24/7 Support"
+    ],
+    "companyInfo": {
+      "name": "Green Tech Innovations",
+      "logo": "https://images.pexels.com/photos/8834227/pexels-photo-8834227.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "founded": "2010",
+      "employees": "300+",
+      "services": [
+        "AI Solutions for Energy",
+        "IoT Devices for Monitoring",
+        "Smart Home Solutions",
+        "Energy Management Systems"
+      ]
+    },
+    "personalQuote": "Harnessing technology to create a greener, smarter world",
+    "expertise": [
+      "Artificial Intelligence",
+      "Internet of Things",
+      "Energy Management",
+      "Software Development",
+      "Data Analytics"
+    ]
+  }
+]
