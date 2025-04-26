@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "name": "Rajesh Kumar",
-    "slug": "bsl-energy",
-    "title": "Managing Director",
+    "name": "Pankaj Sharma",
+    "slug": "pankaj-sharma",
+    "title": "Director",
     "company": "BSL Energy India",
-    "email": "rajesh.kumar@bslenenergy.in",
-    "phone": "+91 123 456 7890",
-    "website": "https://bslenenergy.in",
-    "address": "123 Energy Park, Industrial Area, Mumbai, India",
-    "profileImage": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "coverImage": "https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "email": "admin@bslenergy.in",
+    "phone": "+91 99707 27887",
+    "website": "https://bslenergy.in",
+    "address": "1st Floor, Benchmark Complex, Near DGP Nagar - 1, Nashik-422006, Maharashtra, India",
+    "profileImage": "https://raw.githubusercontent.com/Everest1508/waffle-shop-php/main/PHOTO%20PANKAJ.jpg",
+    "coverImage": "https://bslenergy.in/wp-content/uploads/2024/05/newlogo.png",
     "social": {
       "linkedin": "https://linkedin.com/company/bsl-energy",
       "twitter": "https://twitter.com/bslenergy",
       "instagram": "https://instagram.com/bslenergy"
     },
-    "bio": "Pioneering sustainable energy solutions with over 15 years of experience in renewable energy sector. Leading BSL Energy's mission to transform India's energy landscape.",
+    "bio": "Leading BSL Energy's initiatives with a focus on operational excellence and strategic partnerships. Dedicated to delivering high-quality energy solutions nationwide.",
     "highlights": [
       "ISO 9001:2015 Certified",
-      "20+ Years Experience",
+      "Trusted Energy Partner",
       "Pan India Presence",
-      "24/7 Support"
+      "Focus on Innovation"
     ],
     "companyInfo": {
       "name": "BSL Energy India",
@@ -31,33 +31,32 @@
       "services": [
         "Solar Power Solutions",
         "Wind Energy Systems",
-        "Hybrid Power Plants",
+        "Hybrid Energy Systems",
         "Energy Storage Solutions",
-        "Smart Grid Integration"
+        "Smart Grid Technologies"
       ]
     },
-    "personalQuote": "Committed to powering a sustainable future for generations to come",
+    "personalQuote": "Transforming energy landscapes with smart and sustainable solutions.",
     "expertise": [
+      "Business Strategy",
       "Renewable Energy",
-      "Project Management",
-      "Strategic Planning",
-      "International Business",
-      "Team Leadership"
+      "Operations Management",
+      "Team Leadership",
+      "Client Relations"
     ]
-  }
-,
+  },
 {
-  "id": 1,
+  "id": 2,
   "name": "Girish Gupta",
-  "slug": "bsl-energy",
+  "slug": "girish-gupta",
   "title": "Managing Director",
   "company": "BSL Energy India",
   "email": "girish.gupta@bslenergy.in",
   "phone": "+91 88888 49999",
   "website": "https://bslenergy.in",
   "address": "1st Floor, Benchmark Complex, Near DGP Nagar - 1, Nashik-422006, Maharashtra, India",
-  "profileImage": "https://github.com/Everest1508/waffle-shop-php/raw/main/PHOTO%20GIRISH%20GUPTA.jpg",
-  "coverImage": "https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "profileImage": "https://raw.githubusercontent.com/Everest1508/waffle-shop-php/main/PHOTO%20GIRISH%20GUPTA.jpg",
+  "coverImage": "https://bslenergy.in/wp-content/uploads/2024/05/newlogo.png",
   "social": {
     "linkedin": "https://linkedin.com/company/bsl-energy",
     "twitter": "https://twitter.com/bslenergy",
