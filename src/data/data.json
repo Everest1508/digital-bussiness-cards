@@ -46,49 +46,51 @@
     ]
   }
 ,
-  {
-    "id": 2,
-    "name": "Anjali Verma",
-    "slug": "green-tech",
-    "title": "Chief Technology Officer",
-    "company": "Green Tech Innovations",
-    "email": "rajesh.kumar@bslenenergy.in",
-    "phone": "+91 123 456 7890",
-    "website": "https://greentechinnovations.in",
-    "address": "456 Tech Park, Silicon Valley, Bangalore, India",
-    "profileImage": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "coverImage": "https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "social": {
-      "linkedin": "https://linkedin.com/company/green-tech-innovations",
-      "twitter": "https://twitter.com/greentechinnovations",
-      "instagram": "https://instagram.com/greentechinnovations"
-    },
-    "bio": "Driving innovation in green technology with a focus on AI and IoT solutions for energy efficiency. Passionate about creating a sustainable future through technology.",
-    "highlights": [
-      "ISO 9001:2015 Certified",
-      "20+ Years Experience",
-      "Pan India Presence",
-      "24/7 Support"
-    ],
-    "companyInfo": {
-      "name": "Green Tech Innovations",
-      "logo": "https://images.pexels.com/photos/8834227/pexels-photo-8834227.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "founded": "2010",
-      "employees": "300+",
-      "services": [
-        "AI Solutions for Energy",
-        "IoT Devices for Monitoring",
-        "Smart Home Solutions",
-        "Energy Management Systems"
-      ]
-    },
-    "personalQuote": "Harnessing technology to create a greener, smarter world",
-    "expertise": [
-      "Artificial Intelligence",
-      "Internet of Things",
-      "Energy Management",
-      "Software Development",
-      "Data Analytics"
+{
+  "id": 1,
+  "name": "Girish Gupta",
+  "slug": "bsl-energy",
+  "title": "Managing Director",
+  "company": "BSL Energy India",
+  "email": "girish.gupta@bslenergy.in",
+  "phone": "+91 88888 49999",
+  "website": "https://bslenergy.in",
+  "address": "1st Floor, Benchmark Complex, Near DGP Nagar - 1, Nashik-422006, Maharashtra, India",
+  "profileImage": "https://github.com/Everest1508/waffle-shop-php/raw/main/PHOTO%20GIRISH%20GUPTA.jpg",
+  "coverImage": "https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "social": {
+    "linkedin": "https://linkedin.com/company/bsl-energy",
+    "twitter": "https://twitter.com/bslenergy",
+    "instagram": "https://instagram.com/bslenergy"
+  },
+  "bio": "Driving innovation at BSL Energy with a vision to deliver sustainable energy solutions across India. Focused on operational excellence and strategic growth.",
+  "highlights": [
+    "ISO 9001:2015 Certified",
+    "20+ Years Industry Experience",
+    "Pan India Presence",
+    "Advanced Manufacturing Facilities"
+  ],
+  "companyInfo": {
+    "name": "BSL Energy India",
+    "logo": "https://images.pexels.com/photos/8834227/pexels-photo-8834227.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "founded": "2003",
+    "employees": "500+",
+    "services": [
+      "Solar Power Solutions",
+      "Wind Energy Systems",
+      "Hybrid Energy Systems",
+      "Energy Storage Solutions",
+      "Smart Grid Technologies"
     ]
-  }
+  },
+  "personalQuote": "Empowering the nation with clean and sustainable energy.",
+  "expertise": [
+    "Renewable Energy",
+    "Business Development",
+    "Operations Management",
+    "Strategic Leadership",
+    "Team Building"
+  ]
+}
+
 ]
