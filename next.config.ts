@@ -16,6 +16,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: '**.pexels.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'raw.githubusercontent.com', // Allowing raw GitHub images
+      },
     ],
   },
 };
