@@ -20,6 +20,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'raw.githubusercontent.com', // Allowing raw GitHub images
       },
+      {
+        protocol: 'https',
+        hostname: 'bslenergy.in', // Allowing raw GitHub images
+      },
     ],
   },
 };
