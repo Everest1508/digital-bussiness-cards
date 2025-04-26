@@ -25,71 +25,66 @@
     ],
     "companyInfo": {
       "name": "BSL Energy India",
-      "logo": "https://images.pexels.com/photos/8834227/pexels-photo-8834227.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "logo": "https://bslenergy.in/wp-content/uploads/2024/05/newlogo.png",
       "founded": "2003",
       "employees": "500+",
       "services": [
-        "Solar Power Solutions",
-        "Wind Energy Systems",
-        "Hybrid Energy Systems",
-        "Energy Storage Solutions",
-        "Smart Grid Technologies"
+        "Power Control Centre (PCC) Panel",
+        "Automatic Power Factor Correction (APFC)",
+        "Automatic Mains Failure (AMF) Panels",
+        "Motor Control Center (MCC) Panel"
       ]
     },
     "personalQuote": "Transforming energy landscapes with smart and sustainable solutions.",
     "expertise": [
-      "Business Strategy",
-      "Renewable Energy",
-      "Operations Management",
-      "Team Leadership",
-      "Client Relations"
+      "Power Control Centre (PCC) Panel",
+      "Automatic Power Factor Correction (APFC)",
+      "Automatic Mains Failure (AMF) Panels",
+      "Motor Control Center (MCC) Panel"
     ]
   },
-{
-  "id": 2,
-  "name": "Girish Gupta",
-  "slug": "girish-gupta",
-  "title": "Managing Director",
-  "company": "BSL Energy India",
-  "email": "girish.gupta@bslenergy.in",
-  "phone": "+91 88888 49999",
-  "website": "https://bslenergy.in",
-  "address": "1st Floor, Benchmark Complex, Near DGP Nagar - 1, Nashik-422006, Maharashtra, India",
-  "profileImage": "https://raw.githubusercontent.com/Everest1508/waffle-shop-php/main/PHOTO%20GIRISH%20GUPTA.jpg",
-  "coverImage": "https://bslenergy.in/wp-content/uploads/2024/05/newlogo.png",
-  "social": {
-    "linkedin": "https://linkedin.com/company/bsl-energy",
-    "twitter": "https://twitter.com/bslenergy",
-    "instagram": "https://instagram.com/bslenergy"
-  },
-  "bio": "Driving innovation at BSL Energy with a vision to deliver sustainable energy solutions across India. Focused on operational excellence and strategic growth.",
-  "highlights": [
-    "ISO 9001:2015 Certified",
-    "20+ Years Industry Experience",
-    "Pan India Presence",
-    "Advanced Manufacturing Facilities"
-  ],
-  "companyInfo": {
-    "name": "BSL Energy India",
-    "logo": "https://images.pexels.com/photos/8834227/pexels-photo-8834227.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "founded": "2003",
-    "employees": "500+",
-    "services": [
-      "Solar Power Solutions",
-      "Wind Energy Systems",
-      "Hybrid Energy Systems",
-      "Energy Storage Solutions",
-      "Smart Grid Technologies"
+  {
+    "id": 2,
+    "name": "Girish Gupta",
+    "slug": "girish-gupta",
+    "title": "Managing Director",
+    "company": "BSL Energy India",
+    "email": "girish.gupta@bslenergy.in",
+    "phone": "+91 88888 49999",
+    "website": "https://bslenergy.in",
+    "address": "1st Floor, Benchmark Complex, Near DGP Nagar - 1, Nashik-422006, Maharashtra, India",
+    "profileImage": "https://raw.githubusercontent.com/Everest1508/waffle-shop-php/main/PHOTO%20GIRISH%20GUPTA.jpg",
+    "coverImage": "https://bslenergy.in/wp-content/uploads/2024/05/newlogo.png",
+    "social": {
+      "linkedin": "https://linkedin.com/company/bsl-energy",
+      "twitter": "https://twitter.com/bslenergy",
+      "instagram": "https://instagram.com/bslenergy"
+    },
+    "bio": "Driving innovation at BSL Energy with a vision to deliver sustainable energy solutions across India. Focused on operational excellence and strategic growth.",
+    "highlights": [
+      "ISO 9001:2015 Certified",
+      "20+ Years Industry Experience",
+      "Pan India Presence",
+      "Advanced Manufacturing Facilities"
+    ],
+    "companyInfo": {
+      "name": "BSL Energy India",
+      "logo": "https://bslenergy.in/wp-content/uploads/2024/05/newlogo.png",
+      "founded": "2003",
+      "employees": "500+",
+      "services": [
+        "Power Control Centre (PCC) Panel",
+        "Automatic Power Factor Correction (APFC)",
+        "Automatic Mains Failure (AMF) Panels",
+        "Motor Control Center (MCC) Panel"
+      ]
+    },
+    "personalQuote": "Empowering the nation with clean and sustainable energy.",
+    "expertise": [
+      "Power Control Centre (PCC) Panel",
+      "Automatic Power Factor Correction (APFC)",
+      "Automatic Mains Failure (AMF) Panels",
+      "Motor Control Center (MCC) Panel"
     ]
-  },
-  "personalQuote": "Empowering the nation with clean and sustainable energy.",
-  "expertise": [
-    "Renewable Energy",
-    "Business Development",
-    "Operations Management",
-    "Strategic Leadership",
-    "Team Building"
-  ]
-}
-
+  }
 ]
